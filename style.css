@@ -1,0 +1,45 @@
+body{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headerPic{
+    float:right;
+}
+
+
+
+
+.sec1{
+    float:right;
+    width: 45%;
+    background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d12/main/class-10/lab-a/lab-assets/list-bg.png);
+}
+.sec2{
+    float:left;
+    width: 45%;
+    background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d12/main/class-10/lab-a/lab-assets/list-bg.png);
+}
+
+form{
+    display:block;
+    text-align: center;
+}
+p{
+    text-align: center;
+    display:inline;
+   
+
+}
+button{
+    background-color: rgb(155, 55, 55);
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+}
+button:hover{
+    color:rgb(17, 170, 150) ;
+   
+
+}
