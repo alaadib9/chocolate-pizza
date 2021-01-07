@@ -1,22 +1,28 @@
+body{
+    margin-left: 300px;
+    margin-right: 300px;
+}
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .headerPic{
     float:right;
 }
-.centerImg, h1, h4{
-    margin-left: 300px;
-}
-.first{
-    margin-left: 300px;
-    
-}
-.form{
+
+
+
+
+.sec1{
+    float:right;
+    width: 45%;
     background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d12/main/class-10/lab-a/lab-assets/list-bg.png);
 }
-fieldset{
+.sec2{
+    float:left;
+    width: 45%;
     background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d12/main/class-10/lab-a/lab-assets/list-bg.png);
 }
+
 form{
     display:block;
     text-align: center;
@@ -24,18 +30,16 @@ form{
 p{
     text-align: center;
     display:inline;
-    margin-left: 300px;
-    margin-right: 300px;
+   
 
 }
-.headerPic{
-    margin-bottom: 100px;
+button{
+    background-color: rgb(155, 55, 55);
+    font-family: "Lucida Console", "Courier New", monospace;
+    
 }
-footer{
-    margin-left: 300px;
-}
-footer > p{
-    margin-left:50px;
-    margin-top: 1px;
-    margin-bottom: 200px;
+button:hover{
+    color:rgb(17, 170, 150) ;
+   
+
 }
